@@ -5,8 +5,8 @@ module.exports = {
 			title: "Clean Code: Writing Code for Humans",
 			watchHref: "http://www.pluralsight.com/courses/writing-clean-code-humans",
 			author: {
-				id: "cory-house",
-				name: "Cory House"
+				id: "scott-allen",
+				name: "Scott Allen"
 			},
 			length: "3:10",
 			category: "Software Practices"
