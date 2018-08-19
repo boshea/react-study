@@ -32,6 +32,10 @@ var CourseStore = assign(
 
         getCourseById: function(id) {
             return _.find(_courses, {id: id});
+        },
+
+        getCoursesByAuthorId: function(authorId) {
+            return _.filter(_courses, {author: {id: authorId}});
         }
     }
 );
